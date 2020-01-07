@@ -1,0 +1,11 @@
+.side-contents{
+  width: 300px;
+  height: 100vh;
+  background-color: $side_blue_dark;
+  float: left;
+  .header{
+    height:180px;
+    background-color: rgb(23, 38, 126);
+    border-bottom-color: whitesmoke;
+  }
+}

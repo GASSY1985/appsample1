@@ -1,0 +1,40 @@
+.main_contents{
+  height: 100vh;
+  background-color: $main_color;
+  .blog{
+    width: 700px;
+    float: left;
+    &__header{
+      height: 50px;
+      background-color: #ffffff;
+      border-bottom-color: #eeee;
+      margin: 20px 0px 0 30px;
+      display: flex;
+    }
+    &__contents{
+      height: 620px;
+      background-color: #ffffff;
+      border-bottom-color: #eeee;
+      margin: 10px 0px 20px 30px;
+      display: flex;
+    }
+  }
+  .chat{
+    width: calc(100vw - 1000px);
+    float: left;
+    &__messages{
+      height: 500px;
+      background-color: #ffffff;
+      border-bottom-color: #eeee;
+      margin: 20px 30px 0 10px;
+      display: flex;
+    }
+    &__form{
+      height: 170px;
+      background-color: #ffffff;
+      border-bottom-color: #eeee;
+      margin: 10px 30px 0 10px;
+      display: flex;
+    }
+    }
+  }
