@@ -1,40 +1,38 @@
 .main_contents{
   height: 100vh;
+  width: 100%;
+  float: left;
   background-color: $main_color;
   .blog{
-    width: 700px;
-    float: left;
+    padding: 20px 15px;
+    display: flex;
     &__header{
       height: 50px;
-      background-color: #ffffff;
+      background-color: rgb(45, 6, 218);
       border-bottom-color: #eeee;
-      margin: 20px 0px 0 30px;
-      display: flex;
     }
     &__contents{
-      height: 620px;
-      background-color: #ffffff;
+      height: 100%;
+      background-color: #1bca72;
       border-bottom-color: #eeee;
-      margin: 10px 0px 20px 30px;
-      display: flex;
+      padding: 10px 0px 20px 30px;
     }
   }
   .chat{
     width: calc(100vw - 1000px);
-    float: left;
+    display: flex;
+    background-color: #7ed817;
     &__messages{
       height: 500px;
-      background-color: #ffffff;
+      background-color: #971c1c;
       border-bottom-color: #eeee;
-      margin: 20px 30px 0 10px;
-      display: flex;
+      padding: 20px 30px 0 10px;
     }
     &__form{
       height: 170px;
-      background-color: #ffffff;
+      background-color: #650ea0;
       border-bottom-color: #eeee;
-      margin: 10px 30px 0 10px;
-      display: flex;
+      padding: 10px 30px 0 10px;
     }
     }
   }
