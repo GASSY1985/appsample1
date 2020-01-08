@@ -1,0 +1,21 @@
+.chat{
+  height: 100vh;
+  width: calc(100vw - 1000px);
+  float: left;
+  background-color: $main_color;
+  background-color: #7ed817;
+  &__messages{
+    height: calc(100vh - 150px);
+    background-color: #971c1c;
+    border-bottom-color: #eeee;
+    padding: 20px 30px 10px 10px;
+    display: flex;
+  }
+  &__form{
+    height: 150px;
+    background-color: #650ea0;
+    border-bottom-color: #eeee;
+    padding: 10px 30px 20px 10px;
+    display: flex;
+  }
+}
