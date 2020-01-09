@@ -8,14 +8,64 @@
     height: calc(100vh - 150px);
     background-color: #971c1c;
     border-bottom-color: #eeee;
-    padding: 20px 30px 10px 10px;
-    display: flex;
+    padding: 10px;
+    &__message{
+      background-color: thistle;
+      width: 100%;
+      margin-bottom:15px;
+      &__user-info{
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+        &__name{
+
+        }
+        &__created_at{
+          
+        }
+      }
+      &__text{
+        padding: 10px;
+      }
+    }
+    &__message2{
+      width: 100%;
+      margin-bottom:15px;
+      background-color: thistle;
+      &__user-info{
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+        &__name{
+
+        }
+        &__created_at{
+          
+        }
+      }
+      &__text{
+        padding: 10px;
+      }
+    }
   }
   &__form{
     height: 150px;
     background-color: #650ea0;
     border-bottom-color: #eeee;
-    padding: 10px 30px 20px 10px;
+    padding: 10px;
     display: flex;
+    &__input_box{
+      width: 100%;
+      padding :10px;
+      background-color: turquoise;
+    }
+    &__submit{
+      width: 80px;
+      height: 100%;
+      margin-left: 10px;
+      background-color: yellow;
+      display: flex;
+      align-items: center;
+    }
   }
 }

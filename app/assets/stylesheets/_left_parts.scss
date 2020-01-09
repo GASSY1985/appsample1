@@ -31,11 +31,42 @@
           background-color: coral;
         }
         &__edit{
+          margin-right: 5px;
+        }
+        &__write{
         }
       }
     }
   }
   .main{
     padding: 10px;
+    &__user-blogs{
+      background-color: darkgreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      margin-bottom: 10px;
+      &__title{
+
+      }
+      &__created_at{
+
+      }
+    }
+    &__user-blogs2{
+      background-color: darkgreen;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      margin-bottom: 10px;
+      &__title{
+
+      }
+      &__created_at{
+
+      }
+    }
   }
 }
