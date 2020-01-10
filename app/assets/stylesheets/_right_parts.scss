@@ -1,18 +1,16 @@
 .chat{
   height: 100vh;
-  width: calc(100vw - 1000px);
+  width: calc(100vw -  1000px);
   float: left;
-  background-color: $main_color;
-  background-color: #7ed817;
+  background-color: $shirosumire;
   &__messages{
     height: calc(100vh - 150px);
-    background-color: #971c1c;
     border-bottom-color: #eeee;
-    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: $unohana;
     &__message{
-      background-color: thistle;
       width: 100%;
-      margin-bottom:15px;
+      padding:10px 0;
       &__user-info{
         display: flex;
         padding: 0 10px;
@@ -30,9 +28,8 @@
     }
     &__message2{
       width: 100%;
-      margin-bottom:15px;
-      background-color: thistle;
-      &__user-info{
+      padding:10px 0;
+     &__user-info{
         display: flex;
         padding: 0 10px;
         justify-content: space-between;
@@ -49,23 +46,26 @@
     }
   }
   &__form{
-    height: 150px;
-    background-color: #650ea0;
+    height: 130px;
+    background-color: $shirosumire;
     border-bottom-color: #eeee;
     padding: 10px;
     display: flex;
     &__input_box{
       width: 100%;
       padding :10px;
-      background-color: turquoise;
+      background-color: $unohana;
     }
     &__submit{
-      width: 80px;
       height: 100%;
+      padding:0 20px;
       margin-left: 10px;
-      background-color: yellow;
+      background-color: $konpeki;
       display: flex;
       align-items: center;
+      font-weight: bold;
+      color: white;
+      font-size: 15pt;
     }
   }
 }

@@ -1,24 +1,26 @@
 .side-contents{
   width: 300px;
   height: 100vh;
-  background-color: $side_blue_dark;
-  color:#fff;
+  background-color: $kon;
+  color:whitesmoke;
   float: left;
   .header{
     height:100px;
     padding: 10px;
-    background-color: rgb(23, 38, 126);
+    background-color: $tekkon;
+
     border-bottom-color: whitesmoke;
     &__user{
       height: 100%;
-      background-color: black;
       display: flex;
       &__left{
         width: 100%;
         &__name{
-
+          font-weight: bold;
+          font-size: 13pt;
         }
         &__introduction{
+          margin: 5px 0;
 
         }
       }
@@ -28,12 +30,17 @@
         &__img{
           width: 60px;
           margin-right: 5px;
-          background-color: coral;
+          background-color: $geppaku;
+          color: black;
         }
         &__edit{
           margin-right: 5px;
+          text-decoration: none;
+          color: whitesmoke;
         }
         &__write{
+          text-decoration: none;
+          color: whitesmoke;
         }
       }
     }
@@ -41,31 +48,31 @@
   .main{
     padding: 10px;
     &__user-blogs{
-      background-color: darkgreen;
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      height: 70px;
+      height: 50px;
       margin-bottom: 10px;
       &__title{
-
+        font-weight: bold;
+        align-self: center;
       }
       &__created_at{
-
+        font-size: 10pt;
+        margin-top: 15px;
       }
     }
     &__user-blogs2{
-      background-color: darkgreen;
       display: flex;
-      align-items: center;
       justify-content: space-between;
       height: 70px;
       margin-bottom: 10px;
       &__title{
-
+        font-weight: bold;
+        align-self: center;
       }
       &__created_at{
-
+        font-size: 10pt;
+        margin-top: 15px;
       }
     }
   }
