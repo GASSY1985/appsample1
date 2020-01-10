@@ -1,8 +1,9 @@
 .chat{
   height: 100vh;
-  width: calc(100vw -  1000px);
+  width: calc(100vw - 1040px);
   float: left;
   background-color: $shirosumire;
+  color: $youkan;
   &__messages{
     height: calc(100vh - 150px);
     border-bottom-color: #eeee;
