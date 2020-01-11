@@ -5,49 +5,49 @@
   background-color: $shirosumire;
   color: $youkan;
   &__messages{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 145px);
     border-bottom-color: #eeee;
     margin: 10px 10px 10px 10px;
     background-color: $unohana;
     &__message{
       width: 100%;
-      padding:10px 0;
+      padding:15px 10px;
       &__user-info{
         display: flex;
-        padding: 0 10px;
-        justify-content: space-between;
         &__name{
 
         }
         &__created_at{
-          
+          font-size: 9pt;
+          margin-left: 10px;       
         }
       }
       &__text{
-        padding: 10px;
+        padding: 5px 0 0 10px;
+        font-size: 10pt;
       }
     }
     &__message2{
       width: 100%;
-      padding:10px 0;
-     &__user-info{
+      padding:15px 10px;
+      &__user-info{
         display: flex;
-        padding: 0 10px;
-        justify-content: space-between;
         &__name{
 
         }
         &__created_at{
-          
+          font-size: 9pt;
+          margin-left: 10px;       
         }
       }
       &__text{
-        padding: 10px;
+        padding: 5px 0 0 10px;
+        font-size: 10pt;
       }
     }
   }
   &__form{
-    height: 130px;
+    height: 120px;
     background-color: $shirosumire;
     border-bottom-color: #eeee;
     padding: 10px;
@@ -59,14 +59,14 @@
     }
     &__submit{
       height: 100%;
-      padding:0 20px;
+      padding:0 10px;
       margin-left: 10px;
       background-color: $konpeki;
       display: flex;
       align-items: center;
       font-weight: bold;
       color: white;
-      font-size: 15pt;
+      font-size: 12pt;
     }
   }
 }
